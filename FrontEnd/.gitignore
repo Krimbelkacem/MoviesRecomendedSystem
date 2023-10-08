@@ -32,6 +32,17 @@ migrate_working_dir/
 .pub/
 /build/
 
+
+# Ignore lightweight or development dependencies
+/build/
+/pubspec.lock
+/pubspec.yaml.lock
+/dart_tool/
+/ios/Pods/
+/android/.gradle/
+/android/.idea/
+/android/app/build/
+
 # Symbolication related
 app.*.symbols
 
